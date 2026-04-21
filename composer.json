@@ -17,7 +17,8 @@
         "symfony/config": "8.0.*",
         "symfony/dependency-injection": "8.0.*",
         "symfony/http-kernel": "8.0.*",
-        "symfony/cache": "8.0.*"
+        "symfony/cache": "8.0.*",
+        "web-token/jwt-library": "^4.1"
     },
     "autoload": {
         "psr-4": {
