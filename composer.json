@@ -1,34 +1,32 @@
 {
-  "name": "acat/keycloak-bundle",
-  "description": "Reusable Keycloak access-token integration for Symfony projects",
-  "minimum-stability": "stable",
-  "type": "symfony-bundle",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "F3lix",
-      "email": "info@ronnykraemer.de"
+    "name": "acat/keycloak-bundle",
+    "description": "Reusable Keycloak access-token integration for Symfony projects",
+    "minimum-stability": "stable",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "F3lix",
+            "email": "info@ronnykraemer.de"
+        }
+    ],
+    "require": {
+        "php": "^8.5",
+        "symfony/framework-bundle": "8.0.*",
+        "symfony/security-bundle": "8.0.*",
+        "symfony/config": "8.0.*",
+        "symfony/dependency-injection": "8.0.*",
+        "symfony/http-kernel": "8.0.*",
+        "symfony/cache": "8.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ACAT\\KeycloakBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "bundle": "ACAT\\KeycloakBundle\\AcatKeycloakBundle"
+        }
     }
-  ],
-  "require": {
-    "php": "^8.5",
-    "symfony/framework-bundle": "^6.4 || ^7.0",
-    "symfony/security-bundle": "^6.4 || ^7.0",
-    "symfony/config": "^6.4 || ^7.0",
-    "symfony/dependency-injection": "^6.4 || ^7.0",
-    "symfony/http-kernel": "^6.4 || ^7.0",
-    "symfony/cache": "^6.4 || ^7.0"
-  },
-
-  "autoload": {
-    "psr-4": {
-      "ACAT\\KeycloakBundle\\": "src/"
-    }
-  },
-
-  "extra": {
-    "symfony": {
-      "bundle": "ACAT\\KeycloakBundle\\AcatKeycloakBundle"
-    }
-  }
 }
