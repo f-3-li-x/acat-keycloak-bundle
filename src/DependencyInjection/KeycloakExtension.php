@@ -17,7 +17,7 @@ class KeycloakExtension extends Extension
     /**
      *
      */
-    private const string IDENTIFIER_CALM = 'identifier_clam';
+    private const string IDENTIFIER_CALM = 'identifier_claim';
     /**
      *
      */
