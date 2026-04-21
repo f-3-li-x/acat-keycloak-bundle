@@ -21,7 +21,7 @@ class KeycloakExtension extends Extension
     /**
      *
      */
-    private const string ACAT_KEYCLOAK_IDENTIFIER = 'acat_keycloak.identifier_clam';
+    private const string ACAT_KEYCLOAK_IDENTIFIER = 'acat_keycloak.identifier_claim';
 
     /**
      * @param array $configs
