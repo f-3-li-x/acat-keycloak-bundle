@@ -1,5 +1,5 @@
 {
-  "name": "vendor_name/acat-keycloak-bundle",
+  "name": "acat/keycloak-bundle",
   "description": "Reusable Keycloak access-token integration for Symfony projects",
   "minimum-stability": "stable",
   "type": "symfony-bundle",
