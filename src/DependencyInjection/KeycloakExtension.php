@@ -17,7 +17,7 @@ class KeycloakExtension extends Extension
     /**
      *
      */
-    private const string IDENTIFIER_CALM = 'identifier_claim';
+    private const string IDENTIFIER_CLAIM = 'identifier_claim';
     /**
      *
      */
@@ -35,7 +35,7 @@ class KeycloakExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter(self::ACAT_KEYCLOAK_IDENTIFIER, $config[self::IDENTIFIER_CALM]);
+        $container->setParameter(self::ACAT_KEYCLOAK_IDENTIFIER, $config[self::IDENTIFIER_CLAIM]);
 
         $loader = new PhpFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('services.php');
