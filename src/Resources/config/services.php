@@ -11,6 +11,6 @@ return static function (ContainerConfigurator $configurator): void {
         ->autoconfigure()
         ->public();
 
-    $services->alias('acat_keycloak.user_provided', KeycloakProvider::class);
+    $services->alias('acat_keycloak.user_provider', KeycloakProvider::class);
 
 };
