@@ -1,1 +1,0 @@
-# acat-keycloak-bundle
