@@ -2,6 +2,7 @@
 
 namespace ACAT\KeycloakBundle\Security;
 
+use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 use Symfony\Component\Security\Core\User\InMemoryUser;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
